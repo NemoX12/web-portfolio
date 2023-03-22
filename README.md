@@ -5,3 +5,5 @@
 # URL:
 
 `https://nemox-potfolio.netlify.app/`
+
+# **TEMPORARY ONLY FOR WEB**
