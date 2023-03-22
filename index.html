@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="mobilestylesheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
+    <title>NemoX's Portfolio</title>
+</head>
+<body>
+    <h2 class="cont" id="cont">Contact Us</h2>
+    <img src="img/favicon.ico" alt="favicon" class="favicon">
+    <h1 class="title">FullStack Web Developer</h1>
+    <h2 class="titdesc">I'm creating beautiful and soft things for all, I love what I do.</h2>
+
+    <div class="description">
+        <img src="img/colorful-banner-with-hands-working-computer-different-electronic-gadgets-devices-symbols-programming.jpg" alt="banner" class="descimg">
+        <div class="desctext">
+        </div>
+        <h2 class="welctext">Hi, I'm Serhii</h2>
+        <h3 class="welcdesc">Since my journey to IT started, like 4 years ago I learned a lot of frameworks, languages. Did a lot of works for portfolio. And became fullstack web dev.</h3>
+    </div>
+
+    <div class="skills">
+        <div class="scripter">
+            <img src="img/tools.png" alt="tools" class="script_icon">
+            <h1 class="devname">FullStack Developer</h1>
+
+            <h3 class="devdesc">I like to code things from scratch, and enjoy bringing ideas to life in the browser.</h2>
+
+            <h3 class="uselang">Languages I using to code:</h3>
+            <h4 class="langcode">HTML, CSS, JS, SQL, Git, PhP</h4>
+
+            <h3 class="devtools">Dev Tools:</h3>
+            <h4 class="devuse">VS Studio Code Bootstrap Github Codekit Terminal Powershell</h4>
+
+        </div>
+        <div class="line"></div>
+        
+        <div class="design">
+            <img src="img/roller-paint.png" alt="roller" class="roller_icon">
+            <h1 class="desname">Design</h1>
+
+            <h3 class="desdesc">I value simple content structure, clean design patterns, and thoughtful interactions.</h2>
+
+            <h3 class="usedes">Things I'm designing:</h3>
+            <h4 class="usingdes">UI, UX, Web, Apps</h4>
+
+            <h3 class="destools">Design Tools:</h3>
+            <h4 class="desuse">Figma Sketch Pencil & Paper WebFlow Illustrator Photoshop</h4>
+        </div>
+    </div>
+
+    <h1 class="gittext">👇My GitHub👇</h1>
+    <img src="img/GitHub.jpeg" alt="github" class="imggit" id="gitimg">
+
+    <footer>
+        <div class="container" id="contact">
+        <img src="img/twitter-icon-white-png-12.jpg" alt="twitter" class="icon" id="twit">
+        <img src="img/Без имени-1.png" alt="email" class="icon" id="email">
+        <img src="img/Без имени-2.png" alt="telegram" class="icon" id="tg">
+
+          <p>&copy; 2023 NemoX. All rights reserved.</p>
+        </div>
+      </footer>      
+
+    <script>
+    const img = document.querySelector('#gitimg');
+
+    img.addEventListener('click', () => {
+    window.location.href = 'https://github.com/NemoX12';
+    });
+
+    const twit = document.querySelector('#twit');
+
+    twit.addEventListener('click', () => {
+    window.location.href = 'https://twitter.com/NemooX_';
+    });
+
+    const email = document.querySelector('#email');
+
+    email.addEventListener('click', () => {
+    window.location.href = 'mailto:turret2009@gmail.com';
+    });
+
+    const tg = document.querySelector('#tg');
+
+    tg.addEventListener('click', () => {
+    window.location.href = 'https://t.me/neemox';
+    });
+
+    const cont = document.querySelector('#cont');
+
+    cont.addEventListener('click', () => {
+    window.location.href = '#contact';
+    });
+    </script>
+</body>
+</html>
