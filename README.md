@@ -4,6 +4,6 @@
 
 # URL:
 
-`https://nemox-potfolio.netlify.app/`
+`https://nemox-portfolio.netlify.app/`
 
-# **TEMPORARY ONLY FOR WEB**
+# Now on desktop and mobiles

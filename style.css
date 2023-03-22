@@ -6,6 +6,10 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -237,8 +241,14 @@ footer {
     border: 2px solid;
     border-color: rgb(41, 58, 90);
     cursor: pointer;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
     transform: scale(0.7);
+}
+
+.cont:hover {
+    transform: scale(0.9);
+    background-color: black;
+    color: white;
 }
 
 /* width */
@@ -257,3 +267,11 @@ footer {
     background: rgb(65, 65, 68);
     border-radius: 5px;
   }
+
+  @media (max-width: 600px) {
+    body {
+        width: 300%;
+    }
+  }
+  
+
