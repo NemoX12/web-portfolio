@@ -6,4 +6,4 @@
 
 `https://nemox-potfolio.netlify.app/`
 
-# **TEMORARY ONLY FOR WEB**
+# **TEMPORARY ONLY FOR WEB**
